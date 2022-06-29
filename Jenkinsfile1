@@ -1,8 +1,4 @@
 pipeline{
-    tools{
-        jdk 'myjava'
-        maven 'mymaven'
-    }
 	//agent {label 'linux_slave'}
 	agent any
       stages{
